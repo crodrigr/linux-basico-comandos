@@ -1,4 +1,4 @@
-# 1. ls
+# 1. Comando ls
 
 <details open>
 <summary>Ver</summary>
@@ -39,7 +39,7 @@ Estos son solo ejemplos básicos y hay muchas opciones y combinaciones que puede
 
 </details>
 
-# 2 cd
+# 2 Comando cd
 
 <details open>
 <summary>Ver</summary>
@@ -90,5 +90,109 @@ El comando `cd` en sistemas operativos tipo Unix (como Linux) se utiliza para ca
 
 Es importante destacar que el comando `cd` es fundamental para la navegación en la línea de comandos. Puedes utilizar rutas absolutas o relativas según tus necesidades para cambiar entre diferentes directorios. Si necesitas más información sobre el comando `cd` o cómo usarlo en situaciones específicas, no dudes en preguntar.
 
+
+</details>
+
+# 3. Comando pwd
+
+<details open>
+<summary>Ver</summary>
+
+
+<br>
+
+El comando `pwd` en sistemas operativos tipo Unix (como Linux) se utiliza para imprimir el nombre del directorio de trabajo actual (present working directory). Es útil para saber en qué directorio te encuentras en un momento dado. Aquí tienes un ejemplo básico:
+
+```bash
+pwd
+```
+
+Al ejecutar este comando, el sistema te mostrará la ruta completa del directorio actual. Por ejemplo:
+
+```
+/home/usuario
+```
+
+Esto indica que el directorio actual es "/home/usuario". La salida dependerá del directorio en el que te encuentres cuando ejecutes el comando `pwd`.
+
+Adicionalmente, puedes utilizar opciones adicionales con `pwd`. Por ejemplo:
+
+- `pwd -P`: Imprime la ruta física, sin enlaces simbólicos.
+- `pwd -L`: Imprime la ruta lógica, teniendo en cuenta enlaces simbólicos.
+
+El comando `pwd` es útil para verificar rápidamente tu ubicación en el sistema de archivos cuando trabajas en la línea de comandos.
+
+</details>
+
+
+
+# Comando mkadir
+
+<details open>
+<summary>Ver</summary>
+
+<br>
+
+El comando `mkdir` en sistemas operativos tipo Unix (como Linux) se utiliza para crear un nuevo directorio (carpeta). Aquí tienes un ejemplo básico de cómo usar `mkdir`:
+
+```bash
+mkdir nombre_del_directorio
+```
+
+Este comando creará un nuevo directorio con el nombre especificado en el directorio actual. Si deseas crear un directorio en una ubicación específica, puedes proporcionar la ruta completa:
+
+```bash
+mkdir /ruta/del/nuevo_directorio
+```
+
+Además, puedes crear múltiples directorios a la vez utilizando la opción `-p`. Por ejemplo, si deseas crear una estructura de directorios jerárquica:
+
+```bash
+mkdir -p directorio1/directorio2/directorio3
+```
+
+En este caso, se crearán los directorios `directorio1`, `directorio2` y `directorio3` incluso si no existen, junto con la estructura de directorios necesaria.
+
+Estos son ejemplos básicos de cómo utilizar el comando `mkdir`. Puedes consultar la página de manual del comando (`man mkdir`) para obtener más detalles y opciones disponibles.
+
+</details>
+
+# Comando rmdir
+
+
+<details open>
+<sumary>Ver</sumary>
+
+El comando `rmdir` en sistemas operativos tipo Unix (como Linux) se utiliza para eliminar directorios vacíos. Aquí tienes un ejemplo básico de cómo usar `rmdir`:
+
+```bash
+rmdir nombre_del_directorio
+```
+
+Este comando eliminará el directorio especificado solo si está vacío. Si el directorio contiene archivos o subdirectorios, `rmdir` no realizará la eliminación y mostrará un mensaje de error.
+
+Ejemplo:
+
+```bash
+rmdir directorio_vacio
+```
+
+Si deseas eliminar un directorio y su contenido, puedes utilizar el comando `rm` con la opción `-r` (recursivo). Asegúrate de tener cuidado al usar esta opción, ya que eliminará todo el contenido del directorio.
+
+Ejemplo:
+
+```bash
+rm -r directorio_con_contenido
+```
+
+Además, puedes usar la opción `-p` con `rmdir` para eliminar directorios padres que se vuelven vacíos después de eliminar un subdirectorio.
+
+Ejemplo:
+
+```bash
+rmdir -p directorio_padre/subdirectorio_vacio
+```
+
+Estos son ejemplos básicos del uso del comando `rmdir`. Ten en cuenta que, para eliminar directorios que no estén vacíos, es más común utilizar `rm -r`, pero también debes ser cauteloso para evitar la pérdida accidental de datos importantes.
 
 </details>
