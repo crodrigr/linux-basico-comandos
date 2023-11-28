@@ -354,3 +354,53 @@ Es importante mencionar que el comando `open` es específico de sistemas como ma
 
    
 </details>
+
+# 9. 
+<details ope>
+   <summary>Ver</summary>
+   <br>
+
+   El comando `touch` en sistemas operativos tipo Unix, como Linux, se utiliza para actualizar las marcas de tiempo de acceso y modificación de un archivo o directorio. Si el archivo no existe, `touch` se encargará de crear un archivo vacío con el nombre especificado. Aquí tienes algunos ejemplos básicos de cómo usar `touch`:
+
+### Ejemplos básicos:
+
+1. **Crear un archivo vacío:**
+   ```bash
+   touch archivo.txt
+   ```
+   Esto creará un archivo llamado `archivo.txt` si no existe. Si ya existe, actualizará las marcas de tiempo.
+
+2. **Actualizar las marcas de tiempo de un archivo existente:**
+   ```bash
+   touch archivo_existente.txt
+   ```
+   Esto actualizará las marcas de tiempo de acceso y modificación del archivo `archivo_existente.txt`.
+
+3. **Crear varios archivos a la vez:**
+   ```bash
+   touch archivo1.txt archivo2.txt archivo3.txt
+   ```
+   Esto creará tres archivos vacíos con los nombres especificados.
+
+### Opciones adicionales:
+
+- `-c`: No crea el archivo si no existe. Simplemente actualiza las marcas de tiempo de los archivos existentes.
+- `-t`: Permite especificar una marca de tiempo específica en lugar de usar la hora actual.
+
+### Ejemplos con opciones:
+
+1. **Actualizar las marcas de tiempo sin crear el archivo si no existe:**
+   ```bash
+   touch -c archivo_no_existente.txt
+   ```
+
+2. **Crear un archivo con una marca de tiempo específica:**
+   ```bash
+   touch -t YYYYMMDDHHMM.SS archivo_con_fecha.txt
+   ```
+   Reemplaza `YYYYMMDDHHMM.SS` con la marca de tiempo deseada en el formato AAMMDDhhmm.SS.
+
+El comando `touch` es útil para actualizar marcas de tiempo y crear archivos vacíos cuando sea necesario. Si necesitas más información o tienes preguntas adicionales, no dudes en preguntar.
+
+   
+</details>
