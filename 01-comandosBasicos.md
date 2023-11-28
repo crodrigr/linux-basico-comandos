@@ -23,12 +23,12 @@ El comando `ls` en Linux se utiliza para listar archivos y directorios en un dir
 
 5. **Listar archivos y directorios en un directorio específico:**
    ```bash
-   ls /ruta/del/directorio
+   ls ruta/del/directorio
    ```
 
 6. **Listar archivos y directorios con detalles en un directorio específico:**
    ```bash
-   ls -l /ruta/del/directorio
+   ls -l ruta/del/directorio
    ```
 
 Estos son solo ejemplos básicos y hay muchas opciones y combinaciones que puedes usar con `ls`. Si necesitas ayuda con una tarea o un escenario específico, no dudes en proporcionar más detalles para que pueda ofrecerte una guía más precisa.
