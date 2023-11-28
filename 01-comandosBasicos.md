@@ -306,3 +306,51 @@ Este comando copia el archivo `archivo_origen.txt` al directorio `directorio_des
 
 Estos son solo ejemplos básicos del uso del comando `cp`. La variedad de opciones proporciona flexibilidad para adaptarse a diferentes situaciones de copiado en sistemas Unix. Si necesitas más información o ejemplos específicos, no dudes en preguntar.
 </details>
+
+# 8. Comando open
+
+<details open>
+   <summary>Ver</summary>
+   <br>
+
+El comando `open` en sistemas operativos basados en Unix, como macOS, se utiliza para abrir archivos o directorios con la aplicación predeterminada asociada a ese tipo de archivo. También se puede utilizar para abrir archivos o aplicaciones específicas desde la línea de comandos.
+
+### Ejemplos básicos:
+
+1. **Abrir un archivo con la aplicación predeterminada:**
+   ```bash
+   open archivo.txt
+   ```
+   Esto abrirá el archivo `archivo.txt` con la aplicación predeterminada asociada al tipo de archivo.
+
+2. **Abrir un directorio con el Finder (en macOS):**
+   ```bash
+   open directorio/
+   ```
+   Esto abrirá el directorio `directorio` utilizando el Finder en macOS.
+
+3. **Abrir una aplicación específica:**
+   ```bash
+   open -a "Nombre de la Aplicación"
+   ```
+   Sustituye "Nombre de la Aplicación" con el nombre de la aplicación que deseas abrir. Por ejemplo:
+   ```bash
+   open -a "Google Chrome"
+   ```
+
+4. **Abrir varios archivos o directorios:**
+   ```bash
+   open archivo1.txt archivo2.txt
+   open directorio1/ directorio2/
+   ```
+
+### Opciones adicionales:
+
+- `-e`: Abre el archivo o directorio con el editor de texto predeterminado.
+- `-t`: Abre el archivo o directorio con la aplicación de texto predeterminada.
+- `-b`: Abre la aplicación asociada al identificador de paquete.
+
+Es importante mencionar que el comando `open` es específico de sistemas como macOS y puede no estar disponible en sistemas operativos basados en Linux o Unix diferentes. En esos sistemas, se utilizan comandos diferentes para abrir archivos y aplicaciones.
+
+   
+</details>
