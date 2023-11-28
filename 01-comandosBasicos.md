@@ -485,7 +485,7 @@ El comando `top` es una herramienta poderosa para monitorear el rendimiento del 
 
 </details>
 
-# 12. Kill
+# 12. Comando Kill
 
 <details open>
    <summary>
@@ -533,3 +533,50 @@ Algunas señales comunes que se pueden enviar con `kill`:
 
 Es importante tener en cuenta que algunos programas responden de manera diferente a diferentes señales, y el comportamiento exacto puede depender del programa y de cómo está diseñado para manejar señales. Además, ten cuidado al usar la señal SIGKILL, ya que puede dejar recursos no liberados si el proceso no tiene la oportunidad de realizar acciones de limpieza.
 </details>
+
+## 12. Comando nano
+
+<details>
+    <summary>Ver</summary>
+    <br>
+   El comando `nano` es un editor de texto en línea de comandos que se utiliza en sistemas operativos tipo Unix y Linux. Es una opción fácil de usar, especialmente para principiantes, ya que presenta una interfaz de usuario simple y comandos básicos en la parte inferior de la pantalla. Aquí tienes una descripción básica del uso del comando `nano`:
+
+```bash
+nano [opciones] nombre_del_archivo
+```
+
+- `opciones`: Pueden ser diferentes opciones de configuración o acciones específicas del editor.
+- `nombre_del_archivo`: Especifica el nombre del archivo que deseas editar o crear.
+
+Algunas operaciones básicas dentro de `nano` incluyen:
+
+1. **Abrir un archivo para editar:**
+   ```bash
+   nano nombre_del_archivo
+   ```
+
+2. **Guardar cambios:**
+   - `Ctrl + O`: Guarda el archivo. Puedes confirmar el nombre del archivo y presionar Enter.
+  
+3. **Salir de `nano`:**
+   - `Ctrl + X`: Sale del editor. Si has realizado cambios, se te preguntará si deseas guardarlos antes de salir.
+
+4. **Desplazarse por el texto:**
+   - Usa las teclas de flecha para moverte arriba, abajo, izquierda y derecha.
+
+5. **Copiar y pegar texto:**
+   - `Ctrl + K`: Corta el texto.
+   - `Ctrl + U`: Pega el texto.
+
+6. **Buscar y reemplazar:**
+   - `Ctrl + W`: Busca texto en el archivo.
+   - `Ctrl + \`: Inicia el proceso de reemplazo de texto.
+
+7. **Mostrar/ocultar números de línea:**
+   - `Alt + N`: Activa/desactiva la visualización de números de línea.
+
+Estos son solo algunos ejemplos de los comandos y funciones básicas de `nano`. La pantalla de ayuda de `nano` en la parte inferior proporciona información adicional sobre los comandos disponibles. `nano` es una excelente opción para editar archivos de configuración o realizar ediciones rápidas en la línea de comandos.
+</details>
+
+
+
