@@ -404,3 +404,46 @@ El comando `touch` es útil para actualizar marcas de tiempo y crear archivos va
 
    
 </details>
+
+
+# 10. 
+
+<details open>
+   <summary>Ver</summary>
+   <br>
+   El comando `chown` es utilizado en sistemas operativos tipo Unix y Linux para cambiar el propietario de archivos y directorios. La sintaxis básica del comando es la siguiente:
+
+```bash
+chown [opciones] nuevo_propietario[:nuevo_grupo] archivo(s)
+```
+
+- `nuevo_propietario`: Especifica el nuevo propietario al que se asignará el archivo o directorio.
+- `nuevo_grupo`: (Opcional) Especifica el nuevo grupo al que se asignará el archivo o directorio.
+- `archivo(s)`: Especifica el archivo o archivos para los cuales se cambiará el propietario.
+
+Ejemplos de uso:
+
+1. Cambiar el propietario de un archivo:
+   ```bash
+   chown nuevo_propietario archivo
+   ```
+
+2. Cambiar el propietario y el grupo de un archivo:
+   ```bash
+   chown nuevo_propietario:nuevo_grupo archivo
+   ```
+
+3. Cambiar el propietario de un directorio y de manera recursiva para todos sus archivos y subdirectorios:
+   ```bash
+   chown -R nuevo_propietario directorio
+   ```
+
+Algunas opciones comunes de `chown`:
+
+- `-R`: Realiza la operación de manera recursiva, cambiando el propietario de los archivos y directorios dentro del directorio especificado y sus subdirectorios.
+- `-v`: Muestra un mensaje para cada archivo o directorio procesado, indicando si el cambio de propietario fue exitoso.
+- `-c`: Muestra mensajes solo cuando se realiza un cambio efectivo.
+- `--from=propietario_anterior`: Especifica el propietario actual del archivo o directorio.
+
+Es importante tener en cuenta que el comando `chown` generalmente requiere privilegios de superusuario (root) para cambiar el propietario de archivos fuera del contexto del usuario actual. Si no tienes los privilegios adecuados, es posible que necesites usar `sudo` antes del comando para ejecutarlo con permisos elevados.
+</details>
