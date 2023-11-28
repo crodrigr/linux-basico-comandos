@@ -406,7 +406,7 @@ El comando `touch` es útil para actualizar marcas de tiempo y crear archivos va
 </details>
 
 
-# 10. 
+# 10. chown
 
 <details open>
    <summary>Ver</summary>
