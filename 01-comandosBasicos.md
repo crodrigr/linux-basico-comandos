@@ -42,7 +42,7 @@ Estos son solo ejemplos básicos y hay muchas opciones y combinaciones que puede
 # 2 cd
 
 <details open>
-<summary>Want to ruin the surprise?</summary>
+<summary>Ver</summary>
 <br>
 El comando `cd` en sistemas operativos tipo Unix (como Linux) se utiliza para cambiar el directorio actual en el que te encuentras. Aquí tienes algunos ejemplos de cómo usar `cd`:
 
