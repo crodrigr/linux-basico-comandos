@@ -249,7 +249,7 @@ Estos son solo ejemplos básicos del uso del comando `mv`. La versatilidad de `m
    
 </details>
 
-# 7. Comando 
+# 7. Comando cp
 
 <details open>
    <summary>Ver</summary>
