@@ -1,4 +1,4 @@
-# ls
+# 1. ls
 El comando `ls` en Linux se utiliza para listar archivos y directorios en un directorio específico. Aquí tienes algunos ejemplos comunes de uso de `ls`:
 
 1. **Listar archivos y directorios en el directorio actual:**
