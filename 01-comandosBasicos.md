@@ -484,3 +484,52 @@ Es importante tener en cuenta que el comando `chown` generalmente requiere privi
 El comando `top` es una herramienta poderosa para monitorear el rendimiento del sistema en tiempo real y es comúnmente utilizado por administradores de sistemas y usuarios avanzados para diagnosticar problemas de rendimiento.
 
 </details>
+
+# 12. Kill
+
+<details open>
+   <summary>
+      Ver
+   </summary>
+   <br>
+   El comando `kill` se utiliza en sistemas operativos tipo Unix y Linux para enviar señales a procesos. La señal más comúnmente enviada con `kill` es la señal SIGTERM (15), que solicita a un proceso que se cierre de manera ordenada. Aquí está la sintaxis básica del comando `kill`:
+
+```bash
+kill [opciones] ID_de_proceso
+```
+
+- `opciones`: Pueden ser diferentes señales o parámetros adicionales.
+- `ID_de_proceso`: Es el identificador del proceso al que se enviará la señal. Puedes obtener el ID de proceso utilizando comandos como `ps` o `top`.
+
+Ejemplos de uso:
+
+1. **Enviar la señal SIGTERM (15) a un proceso:**
+   ```bash
+   kill PID_del_proceso
+   ```
+
+2. **Enviar la señal SIGKILL (9) para forzar la terminación de un proceso:**
+   ```bash
+   kill -9 PID_del_proceso
+   ```
+
+3. **Enviar una señal específica a un proceso:**
+   ```bash
+   kill -SIGNUM PID_del_proceso
+   ```
+   Reemplaza `SIGNUM` con el número de la señal específica que deseas enviar. Por ejemplo, `kill -HUP` envía la señal SIGHUP.
+
+4. **Enviar señal a todos los procesos de un usuario:**
+   ```bash
+   pkill -u nombre_de_usuario
+   ```
+   Esto enviará la señal predeterminada (SIGTERM) a todos los procesos del usuario especificado.
+
+Algunas señales comunes que se pueden enviar con `kill`:
+
+- **SIGTERM (15):** Terminación suave. Permite al proceso realizar acciones de limpieza antes de cerrarse.
+- **SIGKILL (9):** Terminación forzada. Mata al proceso inmediatamente sin permitir que realice ninguna acción de limpieza.
+- **SIGHUP (1):** Hup (hang up). A menudo utilizado para reiniciar un proceso.
+
+Es importante tener en cuenta que algunos programas responden de manera diferente a diferentes señales, y el comportamiento exacto puede depender del programa y de cómo está diseñado para manejar señales. Además, ten cuidado al usar la señal SIGKILL, ya que puede dejar recursos no liberados si el proceso no tiene la oportunidad de realizar acciones de limpieza.
+</details>
