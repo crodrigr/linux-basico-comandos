@@ -248,3 +248,61 @@ Este comando mueve el archivo `archivo.txt` a una ruta específica y lo renombra
 Estos son solo ejemplos básicos del uso del comando `mv`. La versatilidad de `mv` permite una amplia gama de operaciones de movimiento y renombrado en sistemas Unix. Si necesitas más información o ejemplos específicos, no dudes en preguntar.
    
 </details>
+
+# 7. Comando 
+
+<details open>
+   <summary>Ver</summary>
+   <br>
+   El comando `cp` en sistemas operativos tipo Unix (como Linux) se utiliza para copiar archivos y directorios. Aquí tienes algunos ejemplos básicos de cómo usar `cp`:
+
+### Copiar un Archivo
+
+```bash
+cp archivo_origen.txt directorio_destino/
+```
+
+Este comando copia el archivo `archivo_origen.txt` al directorio especificado.
+
+### Copiar un Archivo y Renombrarlo
+
+```bash
+cp archivo_origen.txt archivo_destino.txt
+```
+
+Este comando copia el archivo `archivo_origen.txt` y lo renombra como `archivo_destino.txt`.
+
+### Copiar un Directorio y su Contenido Recursivamente
+
+```bash
+cp -r directorio_origen/ directorio_destino/
+```
+
+Este comando copia el directorio `directorio_origen` y su contenido al directorio `directorio_destino`. La opción `-r` es para realizar una copia recursiva y copiar también los subdirectorios y sus contenidos.
+
+### Copiar con Confirmación (evitar sobrescrituras no deseadas)
+
+```bash
+cp -i archivo_origen.txt directorio_destino/
+```
+
+Este comando solicitará confirmación antes de sobrescribir un archivo existente en el destino. Preguntará si deseas sobrescribir cada archivo.
+
+### Copiar y Conservar Metadatos y Permisos
+
+```bash
+cp -p archivo_origen.txt directorio_destino/
+```
+
+Este comando copia el archivo `archivo_origen.txt` al directorio `directorio_destino` y conserva los metadatos (timestamp) y los permisos del archivo original.
+
+### Copiar Solo si el Archivo es Más Nuevo
+
+```bash
+cp -u archivo_origen.txt directorio_destino/
+```
+
+Este comando copia el archivo `archivo_origen.txt` al directorio `directorio_destino` solo si el archivo origen es más nuevo que el archivo destino o si el archivo destino no existe.
+
+Estos son solo ejemplos básicos del uso del comando `cp`. La variedad de opciones proporciona flexibilidad para adaptarse a diferentes situaciones de copiado en sistemas Unix. Si necesitas más información o ejemplos específicos, no dudes en preguntar.
+</details>
