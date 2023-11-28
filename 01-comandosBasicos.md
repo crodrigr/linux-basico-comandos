@@ -355,7 +355,7 @@ Es importante mencionar que el comando `open` es específico de sistemas como ma
    
 </details>
 
-# 9. 
+# 9. Comando touch
 <details ope>
    <summary>Ver</summary>
    <br>
