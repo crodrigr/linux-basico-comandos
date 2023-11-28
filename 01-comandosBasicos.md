@@ -126,7 +126,7 @@ El comando `pwd` es útil para verificar rápidamente tu ubicación en el sistem
 
 
 
-# Comando mkadir
+# 4. Comando mkadir
 
 <details open>
 <summary>Ver</summary>
@@ -157,11 +157,11 @@ Estos son ejemplos básicos de cómo utilizar el comando `mkdir`. Puedes consult
 
 </details>
 
-# Comando rmdir
+# 5. Comando rmdir
 
 
 <details open>
-<sumary>Ver</sumary>
+<summary>Ver</summary>
 
 El comando `rmdir` en sistemas operativos tipo Unix (como Linux) se utiliza para eliminar directorios vacíos. Aquí tienes un ejemplo básico de cómo usar `rmdir`:
 
@@ -195,4 +195,56 @@ rmdir -p directorio_padre/subdirectorio_vacio
 
 Estos son ejemplos básicos del uso del comando `rmdir`. Ten en cuenta que, para eliminar directorios que no estén vacíos, es más común utilizar `rm -r`, pero también debes ser cauteloso para evitar la pérdida accidental de datos importantes.
 
+</details>
+
+# 6. Comando mv
+
+<details open>
+   <summary>Ver</summary>
+   <br>
+
+El comando `mv` en sistemas operativos tipo Unix (como Linux) se utiliza para mover o renombrar archivos y directorios. Aquí tienes algunos ejemplos básicos de cómo usar `mv`:
+
+### Mover un Archivo a un Directorio
+
+```bash
+mv archivo.txt directorio_destino/
+```
+
+Este comando mueve el archivo `archivo.txt` al directorio especificado.
+
+### Renombrar un Archivo
+
+```bash
+mv nombre_antiguo.txt nombre_nuevo.txt
+```
+
+Este comando renombra el archivo `nombre_antiguo.txt` a `nombre_nuevo.txt`.
+
+### Mover y Renombrar Directorios
+
+```bash
+mv directorio_antiguo/ directorio_nuevo/
+```
+
+Este comando mueve y/o renombra el directorio `directorio_antiguo` a `directorio_nuevo`.
+
+### Forzar la Sobrescritura y la Fusión (útil al mover directorios)
+
+```bash
+mv -f directorio_origen/ directorio_destino/
+```
+
+Este comando fuerza la sobrescritura de archivos si ya existen en el directorio de destino y fusiona los contenidos de los directorios si ya existe un directorio con el mismo nombre en el destino.
+
+### Mover y Renombrar con Ruta Específica
+
+```bash
+mv archivo.txt /ruta/absoluta/para/destino/nuevo_nombre.txt
+```
+
+Este comando mueve el archivo `archivo.txt` a una ruta específica y lo renombra en el proceso.
+
+Estos son solo ejemplos básicos del uso del comando `mv`. La versatilidad de `mv` permite una amplia gama de operaciones de movimiento y renombrado en sistemas Unix. Si necesitas más información o ejemplos específicos, no dudes en preguntar.
+   
 </details>
