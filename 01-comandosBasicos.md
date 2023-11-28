@@ -578,5 +578,48 @@ Algunas operaciones básicas dentro de `nano` incluyen:
 Estos son solo algunos ejemplos de los comandos y funciones básicas de `nano`. La pantalla de ayuda de `nano` en la parte inferior proporciona información adicional sobre los comandos disponibles. `nano` es una excelente opción para editar archivos de configuración o realizar ediciones rápidas en la línea de comandos.
 </details>
 
+# 14. Comando sudo
+
+<details open>
+    <summary>Ver</summary>
+       <br>
+   El comando `su` (abreviatura de "switch user" o "substitute user") se utiliza en sistemas operativos tipo Unix y Linux para cambiar de usuario en la terminal. También puede utilizarse para abrir una nueva sesión de shell como otro usuario, ya sea un usuario común o el usuario root (superusuario). Aquí tienes la sintaxis básica del comando `su`:
+
+```bash
+su [opciones] [nombre_de_usuario]
+```
+
+- `opciones`: Pueden ser diferentes opciones de configuración.
+- `nombre_de_usuario`: Especifica el nombre de usuario al que deseas cambiar. Si no se proporciona, por defecto intentará cambiar al usuario root.
+
+Ejemplos de uso:
+
+1. **Cambiar al usuario root:**
+   ```bash
+   su
+   ```
+   Te pedirá la contraseña del usuario root.
+
+2. **Cambiar a otro usuario:**
+   ```bash
+   su nombre_de_usuario
+   ```
+   Reemplaza `nombre_de_usuario` con el nombre del usuario al que deseas cambiar. Se te pedirá la contraseña del usuario especificado.
+
+3. **Ejecutar un comando como otro usuario:**
+   ```bash
+   su -c "comando" -s /bin/sh nombre_de_usuario
+   ```
+   Esto ejecutará el comando especificado como el usuario especificado. Reemplaza `"comando"` con el comando que deseas ejecutar y `nombre_de_usuario` con el nombre del usuario.
+
+4. **Abrir una shell como otro usuario:**
+   ```bash
+   su -s /bin/bash nombre_de_usuario
+   ```
+   Esto abrirá una nueva sesión de shell como el usuario especificado. Reemplaza `nombre_de_usuario` con el nombre del usuario.
+
+Es importante destacar que para utilizar `su` para cambiar al usuario root o a otro usuario, generalmente necesitarás conocer la contraseña de ese usuario. Además, algunas distribuciones de Linux pueden tener configuraciones específicas para restringir el uso de `su` por razones de seguridad. En lugar de `su`, también puedes utilizar `sudo` para ejecutar comandos con privilegios de superusuario en sistemas que lo admitan.
+</details>
+
 
 
