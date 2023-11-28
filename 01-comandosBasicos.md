@@ -406,7 +406,7 @@ El comando `touch` es útil para actualizar marcas de tiempo y crear archivos va
 </details>
 
 
-# 10. chown
+# 10. comando chown
 
 <details open>
    <summary>Ver</summary>
@@ -446,4 +446,41 @@ Algunas opciones comunes de `chown`:
 - `--from=propietario_anterior`: Especifica el propietario actual del archivo o directorio.
 
 Es importante tener en cuenta que el comando `chown` generalmente requiere privilegios de superusuario (root) para cambiar el propietario de archivos fuera del contexto del usuario actual. Si no tienes los privilegios adecuados, es posible que necesites usar `sudo` antes del comando para ejecutarlo con permisos elevados.
+</details>
+
+# 11. Comando top
+<details open>
+   <summary>Ver</summary>
+
+   <br>
+
+   El comando `top` es una herramienta de línea de comandos que se utiliza en sistemas operativos Unix y Linux para monitorear las estadísticas del sistema en tiempo real. Proporciona una vista en tiempo real de la actividad del sistema, mostrando información sobre el uso de la CPU, la memoria, los procesos en ejecución y otros recursos del sistema. Aquí hay una descripción básica de cómo usar el comando `top`:
+
+1. **Ejecución del comando:**
+   Simplemente escribe `top` en la terminal y presiona Enter. Esto abrirá una ventana en la terminal que mostrará información actualizada sobre el estado del sistema.
+
+   ```bash
+   top
+   ```
+
+2. **Interfaz de usuario:**
+   La interfaz de `top` consta de varias secciones. Algunas de las secciones más importantes incluyen:
+
+   - **Resumen del sistema:** Muestra información sobre la carga promedio del sistema, el tiempo de actividad, el número de usuarios, y más.
+   - **Estadísticas de la CPU:** Muestra el uso de la CPU por proceso y en general.
+   - **Memoria:** Muestra el uso de la memoria, incluyendo RAM y swap.
+   - **Información de procesos:** Lista los procesos en ejecución, ordenados por diferentes criterios como uso de CPU, memoria, etc.
+
+3. **Comandos durante la ejecución:**
+   - `q`: Salir de `top`.
+   - `k`: Matar un proceso. Selecciona un proceso y presiona `k`, luego ingresa el número del proceso que deseas matar.
+   - `Space`: Actualizar la pantalla.
+
+4. **Opciones de línea de comandos:**
+   - `top -u usuario`: Muestra solo los procesos del usuario especificado.
+   - `top -p PID`: Muestra información sobre un proceso específico, donde `PID` es el ID del proceso.
+   - `top -n num`: Especifica el número de actualizaciones que se mostrarán antes de salir.
+
+El comando `top` es una herramienta poderosa para monitorear el rendimiento del sistema en tiempo real y es comúnmente utilizado por administradores de sistemas y usuarios avanzados para diagnosticar problemas de rendimiento.
+
 </details>
