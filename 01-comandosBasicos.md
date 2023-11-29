@@ -1,6 +1,6 @@
 # 1. Comando ls
 
-<details open>
+<details>
 <summary>Ver</summary>
 <br>
 El comando `ls` en Linux se utiliza para listar archivos y directorios en un directorio específico. Aquí tienes algunos ejemplos comunes de uso de `ls`:
@@ -41,7 +41,7 @@ Estos son solo ejemplos básicos y hay muchas opciones y combinaciones que puede
 
 # 2 Comando cd
 
-<details open>
+<details>
 <summary>Ver</summary>
 <br>
 El comando `cd` en sistemas operativos tipo Unix (como Linux) se utiliza para cambiar el directorio actual en el que te encuentras. Aquí tienes algunos ejemplos de cómo usar `cd`:
@@ -95,7 +95,7 @@ Es importante destacar que el comando `cd` es fundamental para la navegación en
 
 # 3. Comando pwd
 
-<details open>
+<details>
 <summary>Ver</summary>
 
 
@@ -128,7 +128,7 @@ El comando `pwd` es útil para verificar rápidamente tu ubicación en el sistem
 
 # 4. Comando mkadir
 
-<details open>
+<details>
 <summary>Ver</summary>
 
 <br>
@@ -160,7 +160,7 @@ Estos son ejemplos básicos de cómo utilizar el comando `mkdir`. Puedes consult
 # 5. Comando rmdir
 
 
-<details open>
+<details>
 <summary>Ver</summary>
 
 El comando `rmdir` en sistemas operativos tipo Unix (como Linux) se utiliza para eliminar directorios vacíos. Aquí tienes un ejemplo básico de cómo usar `rmdir`:
@@ -199,7 +199,7 @@ Estos son ejemplos básicos del uso del comando `rmdir`. Ten en cuenta que, para
 
 # 6. Comando mv
 
-<details open>
+<details>
    <summary>Ver</summary>
    <br>
 
@@ -251,7 +251,7 @@ Estos son solo ejemplos básicos del uso del comando `mv`. La versatilidad de `m
 
 # 7. Comando cp
 
-<details open>
+<details>
    <summary>Ver</summary>
    <br>
    El comando `cp` en sistemas operativos tipo Unix (como Linux) se utiliza para copiar archivos y directorios. Aquí tienes algunos ejemplos básicos de cómo usar `cp`:
@@ -309,7 +309,7 @@ Estos son solo ejemplos básicos del uso del comando `cp`. La variedad de opcion
 
 # 8. Comando open
 
-<details open>
+<details>
    <summary>Ver</summary>
    <br>
 
@@ -356,7 +356,7 @@ Es importante mencionar que el comando `open` es específico de sistemas como ma
 </details>
 
 # 9. Comando touch
-<details ope>
+<details>
    <summary>Ver</summary>
    <br>
 
@@ -408,7 +408,7 @@ El comando `touch` es útil para actualizar marcas de tiempo y crear archivos va
 
 # 10. comando chown
 
-<details open>
+<details>
    <summary>Ver</summary>
    <br>
    El comando `chown` es utilizado en sistemas operativos tipo Unix y Linux para cambiar el propietario de archivos y directorios. La sintaxis básica del comando es la siguiente:
@@ -449,7 +449,7 @@ Es importante tener en cuenta que el comando `chown` generalmente requiere privi
 </details>
 
 # 11. Comando top
-<details open>
+<details>
    <summary>Ver</summary>
 
    <br>
@@ -487,7 +487,7 @@ El comando `top` es una herramienta poderosa para monitorear el rendimiento del 
 
 # 12. Comando Kill
 
-<details open>
+<details>
    <summary>
       Ver
    </summary>
@@ -580,7 +580,7 @@ Estos son solo algunos ejemplos de los comandos y funciones básicas de `nano`. 
 
 # 14. Comando sudo
 
-<details open>
+<details>
     <summary>Ver</summary>
        <br>
    El comando `su` (abreviatura de "switch user" o "substitute user") se utiliza en sistemas operativos tipo Unix y Linux para cambiar de usuario en la terminal. También puede utilizarse para abrir una nueva sesión de shell como otro usuario, ya sea un usuario común o el usuario root (superusuario). Aquí tienes la sintaxis básica del comando `su`:
