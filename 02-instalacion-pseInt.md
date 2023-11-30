@@ -31,3 +31,26 @@ Una vez se descomprime mover el directorio pseInt a /opt. Para realizar estas ac
 ![image](https://github.com/crodrigr/linux-basico-comandos/assets/31961588/2ec63c6d-0ec2-442d-bbc5-1130d86490a2)
 
 </details>
+
+## 4. Ir a /opt
+
+Con el comando **cd /opt** vamos al directorio **/opt** e ingresamos al directorio pseint}
+
+<details><summary>Imagen</summary><br>
+
+![image](https://github.com/crodrigr/linux-basico-comandos/assets/31961588/baca0fcd-5bd0-419c-855d-0471afc6075b)
+
+</details>
+
+## 5. Abrir pseint
+
+Con el comando **./pseint** se abre nuestra aplicación de pseint
+
+<details><summary>Imagen</summary><br>
+
+![image](https://github.com/crodrigr/linux-basico-comandos/assets/31961588/3eef578f-7d3a-43ab-b3af-04855f3188bf)
+
+</details>
+
+
+
