@@ -22,7 +22,7 @@ En descargas usar le comando **tar zxvf pseint-l64-20230517.tgz**
 
 ## 3. Mover pseInt a opt
 
-Una vez se descomprime mover el directorio pseInt a /opt. Debe hacerlos con usuario root para esto debes ejecutar el mando **sudo su** e ingresar la contraseña de root
+Una vez se descomprime mover el directorio pseInt a /opt. Para realizar estas acciones, es necesario utilizar el usuario root. Para ello, ejecuta el comando **sudo su** e introduce la contraseña correspondiente del usuario root.
 
 
 
