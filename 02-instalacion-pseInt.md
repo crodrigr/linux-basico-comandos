@@ -24,7 +24,7 @@ En descargas usar le comando **tar zxvf pseint-l64-20230517.tgz**
 
 Una vez se descomprime mover el directorio pseInt a /opt
 
-![image](https://github.com/crodrigr/linux-basico-comandos/assets/31961588/2ec63c6d-0ec2-442d-bbc5-1130d86490a2)
+
 
 <details><summary>Imagen</summary><br>
   
