@@ -52,5 +52,24 @@ Con el comando **./pseint** se abre nuestra aplicación de pseint
 
 </details>
 
+<details><summary>Imagen</summary><br>
+  
+![image](https://github.com/crodrigr/linux-basico-comandos/assets/31961588/11eb0f1c-b8a7-45dd-b650-ff1c036b5afd)
+
+</details>
+
+<details><summary>Imagen</summary><br>
+  
+![image](https://github.com/crodrigr/linux-basico-comandos/assets/31961588/a04405c7-5c61-4670-861a-1ad0c1364bc0)
+
+</details>
+
+<details><summary>Imagen</summary><br>
+  
+![image](https://github.com/crodrigr/linux-basico-comandos/assets/31961588/7c569008-40d1-4b5b-af91-cebc74648802)
+
+
+</details>
+
 
 
